@@ -20,7 +20,8 @@ body {
 }
 */
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 5px;
+  height: 70px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -86,6 +87,9 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+   #nav-list{
+    display: none;
+  }
 
 }
 
@@ -99,11 +103,16 @@ body {
     margin: 5px 5px 5px 0;
   }*/
   /* End Header */
+  #nav-list{
+    display: none;
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+#nav-list{
+    display: none;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -126,10 +135,10 @@ body {
     height: 20px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a {  /*Collapsed nav menu text*/ 
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span { /* Collapsed nav menu glyph*/ 
     font-size: 1em;
     margin-right: 5px;
   }
